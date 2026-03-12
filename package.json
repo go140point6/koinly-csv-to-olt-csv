@@ -1,0 +1,29 @@
+{
+  "name": "koinly-csv-to-olt-csv",
+  "version": "1.0.0",
+  "description": "Convert Koinly capital gains CSV exports into OLT import CSV format.",
+  "main": "bin/koinly-to-olt.js",
+  "scripts": {
+    "convert": "node bin/koinly-to-olt.js",
+    "test": "node test/smoke.js"
+  },
+  "bin": {
+    "koinly-to-olt": "./bin/koinly-to-olt.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/go140point6/koinly-csv-to-olt-csv.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/go140point6/koinly-csv-to-olt-csv/issues"
+  },
+  "homepage": "https://github.com/go140point6/koinly-csv-to-olt-csv#readme",
+  "dependencies": {
+    "csv-parse": "^6.1.0",
+    "csv-stringify": "^6.6.0"
+  }
+}
